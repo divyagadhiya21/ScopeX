@@ -109,10 +109,10 @@ The testing approach includes:
 ---
 
 ## **7. Acceptance Criteria**
-- **User Registration:** The user should be successfully registered.
+- **User Registration:** Registration should be successful, and the user should be redirected to the dashboard.
 - **Login:** The user should be able to log in.
-- **Adding a Recipient:** The recipient should be successfully added.
-- **Logout:** The user should be logged out.
+- **Adding a Recipient:** The recipient should be added successfully and displayed in the recipient list.
+- **Logout:** Logout should function correctly and return the user to the login screen.
 
 ---
 
