@@ -57,6 +57,7 @@ The testing approach includes:
 | LOG-005 | Verify login with an invalid email format | Enter an email like "abc@com" and submit. | "Enter a valid email address" error should be displayed. |
 | LOG-006 | Verify "Continue with Google" | Click "Continue with Google" and select an account. | User should be logged in successfully. |
 | LOG-007 | Verify login session expiration | Stay inactive for a long time and try accessing a secure page. | User should be logged out automatically. |
+| LOG-007 | Verify that the user session is active in 2 different systems. | Enter valid email and password in 2 different systems at the same time, and click on "Log in." | Do not allow login with the second session if the first is still active. |
 
 ---
 
@@ -122,8 +123,3 @@ The testing approach includes:
 
 ---
 
-## **9. Next Steps**
-1. **Upload this file as `Manual_Test_Plan.md` in GitHub.**  
-2. **Proceed with Automation Scripting and Bug Reporting.**  
-
----
