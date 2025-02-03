@@ -57,7 +57,7 @@ The testing approach includes:
 | LOG-005 | Verify login with an invalid email format | Enter an email like "abc@com" and submit. | "Enter a valid email address" error should be displayed. |
 | LOG-006 | Verify "Continue with Google" | Click "Continue with Google" and select an account. | User should be logged in successfully. |
 | LOG-007 | Verify login session expiration | Stay inactive for a long time and try accessing a secure page. | User should be logged out automatically. |
-| LOG-007 | Verify 2 user sessions are active in 2 different systems on same time | Enter a valid email and password in 2 different systems simultaneously, and click "Log in." | Do not allow login with the second session if the first is still active. |
+| LOG-007 | Verify user sessions are active in 2 different systems simultaneously | Enter a valid email and password in 2 different systems simultaneously, and click "Log in." | Do not allow login with the second session if the first is still active. |
 
 ---
 
